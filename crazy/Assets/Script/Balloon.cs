@@ -1,4 +1,5 @@
 
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,6 +25,7 @@ public class Balloon : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         rigid = gameObject.GetComponent<Rigidbody2D>();
         collider = gameObject.GetComponent<BoxCollider2D>();
+        Debug.Log("Dd");
     }
 
     void OnEnable()
