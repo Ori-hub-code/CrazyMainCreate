@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public GameObject WaterBalloon5; // 물풍선 5
     public GameObject WaterBalloon6; // 물풍선 6
     public GameObject WaterBalloon7; // 물풍선 7
-
+//jkj
     public int bombPower;
     public int bombPowerMax = 10;
     public int bombRange;
